@@ -1,0 +1,131 @@
+.footer {
+  width: 100%; /* Set width to 100% */
+  background-color: #f8f8f8;
+  padding: 40px; /* Adjust padding to fit the layout */
+  color: #333;
+  font-family: 'Integral CF', sans-serif;
+  box-sizing: border-box;
+}
+.newsletter {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.newsletter h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+.newsletter form {
+    display: flex;
+    align-items: center;
+}
+.newsletter input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    width: 250px;
+}
+.newsletter button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center; /* Căn giữa các thành phần con */
+  gap: 50px; /* Khoảng cách giữa các cột */
+  flex-wrap: wrap;
+  max-width: 1200px; /* Giới hạn chiều rộng của nội dung footer */
+  margin: 0 auto; /* Căn giữa nội dung bên trong footer */
+  margin-bottom: 40px;
+}
+
+.footer-section {
+  width: 200px;
+}
+
+.footer-section h4, .footer-section h3 {
+  font-size: 33.45px;
+  margin-bottom: 10px;
+  font: bold;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.social-icons a {
+  margin-right: 10px;
+  color: #333;
+  font-size: 18px;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px; /* Giới hạn chiều rộng của nội dung footer */
+  margin: 0 auto; /* Căn giữa nội dung trong phần dưới của footer */
+  font-family: Satoshi;
+}
+
+.footer-bottom p {
+  flex: 1 0 100%;
+  margin: 10px 0;
+  text-align: center; /* Căn giữa phần text bản quyền */
+}
+
+.payment-icons {
+  display: flex;
+  justify-content: center; /* Căn giữa các icon thanh toán */
+}
+
+.payment-icons img {
+  width: 40px;
+ margin: 0 10px;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-section {
+    margin-bottom: 20px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .payment-icons {
+    margin-top: 10px;
+  }
+} 
+.font-size{
+    font-size: 14px;
+}
